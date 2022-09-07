@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.AddsController">
+   <children>
+      <Label layoutX="219.0" layoutY="28.0" prefHeight="39.0" prefWidth="157.0" text="Add Methods" textAlignment="CENTER" textFill="#bf3c3c">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <HBox layoutX="28.0" layoutY="125.0" prefHeight="107.0" prefWidth="511.0" spacing="30.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#AddEmployee" prefHeight="78.0" prefWidth="102.0" text="Add Employee" textFill="#e12f2f">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#AddVisitor" prefHeight="78.0" prefWidth="102.0" text="Add Visitor" textFill="#93991d">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#AddSnackBar" prefHeight="78.0" prefWidth="102.0" text="Add SnackBar" textFill="#220dff">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#AddSnack" prefHeight="78.0" prefWidth="102.0" text="Add Snack" textFill="#8321b4">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="28.0" layoutY="232.0" prefHeight="107.0" prefWidth="511.0" spacing="30.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#AddMammal" prefHeight="78.0" prefWidth="102.0" text="Add Mammal" textFill="#2b9e65">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#AddBird" prefHeight="78.0" prefWidth="102.0" text="Add Bird" textFill="#2089e5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#AddReptile" prefHeight="78.0" prefWidth="102.0" text="Add Reptile" textFill="#b47b50">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#AddSection" prefHeight="78.0" prefWidth="102.0" text="Add Section" textFill="#e1a500">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Button fx:id="backbtn" layoutX="28.0" layoutY="35.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="66.0" />
+   </children>
+</AnchorPane>

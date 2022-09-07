@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.DiscountController">
+   <children>
+      <Label layoutX="205.0" layoutY="14.0" prefHeight="36.0" prefWidth="214.0" style="-fx-background-color: #FFFF;" text="Apply a Discount">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="81.0" prefHeight="27.0" prefWidth="140.0" style="-fx-background-color: #FFFF;" text="Choose a visitor:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="150.0" prefHeight="27.0" prefWidth="176.0" style="-fx-background-color: #FFFF;" text="Choose discount type:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="visitorList" layoutX="296.0" layoutY="82.0" prefHeight="25.0" prefWidth="176.0" />
+      <ComboBox fx:id="discountList" layoutX="296.0" layoutY="151.0" prefHeight="25.0" prefWidth="176.0" />
+      <Button layoutX="244.0" layoutY="238.0" mnemonicParsing="false" onAction="#applyDiscount" text="Apply Discount" />
+      <Button fx:id="backbtn" layoutX="14.0" layoutY="19.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="66.0" />
+   </children>
+</AnchorPane>

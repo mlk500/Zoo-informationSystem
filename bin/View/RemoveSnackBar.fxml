@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.RemoveSnackBarController">
+   <children>
+      <Label layoutX="162.0" layoutY="26.0" text="Removing a SnackBar">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="78.0" text="Select a SnackBar from the list to remove it:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="removeBtn" layoutX="235.0" layoutY="342.0" mnemonicParsing="false" onAction="#removeSnackBar" prefHeight="36.0" prefWidth="129.0" text="Remove SnackBar" />
+      <Button fx:id="backbtn" layoutX="26.0" layoutY="31.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="66.0" />
+      <ListView fx:id="snackBarList" layoutX="6.0" layoutY="105.0" prefHeight="230.0" prefWidth="592.0" />
+   </children>
+</AnchorPane>

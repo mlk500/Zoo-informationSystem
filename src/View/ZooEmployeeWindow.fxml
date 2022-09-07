@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="702.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.ZooEmployeeWindowController">
+   <children>
+      <Label layoutX="233.0" layoutY="14.0" prefHeight="38.0" prefWidth="192.0" text="Zoo Employee">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <HBox layoutY="121.0" prefHeight="121.0" prefWidth="702.0" spacing="15.0">
+         <children>
+            <Button fx:id="addbtn" mnemonicParsing="false" onAction="#addPressed" prefHeight="113.0" prefWidth="180.0" text="Add" textFill="#129214">
+               <font>
+                  <Font name="Corbel Bold" size="36.0" />
+               </font>
+            </Button>
+            <Button fx:id="rememp" mnemonicParsing="false" onAction="#removePressed" prefHeight="113.0" prefWidth="185.0" text="Remove" textFill="#df2222">
+               <font>
+                  <Font name="Corbel Bold" size="32.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#getPressed" prefHeight="113.0" prefWidth="185.0" text="Get" textFill="#f29f50">
+               <font>
+                  <Font name="Corbel Bold" size="35.0" />
+               </font>
+            </Button>
+            <Button lineSpacing="10.0" mnemonicParsing="false" onAction="#queriesPressed" prefHeight="113.0" prefWidth="185.0" text="Queries">
+               <font>
+                  <Font name="Corbel Bold" size="31.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="-2.0" layoutY="300.0" prefHeight="134.0" prefWidth="702.0" spacing="15.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#animalTreatPressed" prefHeight="113.0" prefWidth="185.0" text="Animal Treating" textFill="#41768b">
+               <font>
+                  <Font name="Corbel Bold" size="19.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#revenuePressed" prefHeight="113.0" prefWidth="185.0" text="Revenue" textFill="#553131">
+               <font>
+                  <Font name="Corbel Bold" size="30.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#infoPressed" prefHeight="113.0" prefWidth="185.0" text="Show Data" textFill="#71602a">
+               <font>
+                  <Font name="Corbel Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#visitorActionsPressed" prefHeight="113.0" prefWidth="185.0" text="Visitor Actions" textFill="#192990">
+               <font>
+                  <Font name="Corbel Bold" size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Button fx:id="logoutBtn" layoutX="32.0" layoutY="17.0" mnemonicParsing="false" onAction="#logout" prefHeight="30.0" prefWidth="64.0" textFill="#4a02ff">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

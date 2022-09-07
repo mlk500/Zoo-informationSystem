@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.RemovesController">
+   <children>
+      <Label layoutX="204.0" layoutY="28.0" prefHeight="39.0" prefWidth="191.0" text="Remove Methods" textAlignment="CENTER" textFill="#bf3c3c">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <HBox layoutX="16.0" layoutY="124.0" prefHeight="107.0" prefWidth="567.0" spacing="30.0">
+         <children>
+            <Button fx:id="employeeBtn" mnemonicParsing="false" onAction="#remove" prefHeight="78.0" prefWidth="134.0" text="Remove Employee" textFill="#e51212">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="vistorBtn" mnemonicParsing="false" onAction="#remove" prefHeight="78.0" prefWidth="131.0" text="Remove Visitor" textFill="#93991d">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="sbBtn" mnemonicParsing="false" onAction="#remove" prefHeight="78.0" prefWidth="131.0" text="Remove SnackBar" textFill="#220dff">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="snackBtn" mnemonicParsing="false" onAction="#remove" prefHeight="78.0" prefWidth="131.0" text="Remove Snack" textFill="#8321b4">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="16.0" layoutY="231.0" prefHeight="107.0" prefWidth="567.0" spacing="30.0">
+         <children>
+            <Button fx:id="mammalBtn" mnemonicParsing="false" onAction="#remove" prefHeight="78.0" prefWidth="131.0" text="Remove Mammal" textFill="#2b9e65">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="birdBtn" mnemonicParsing="false" onAction="#remove" prefHeight="78.0" prefWidth="131.0" text="Remove Bird" textFill="#2089e5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="reptileBtn" mnemonicParsing="false" onAction="#remove" prefHeight="78.0" prefWidth="131.0" text="Remove Reptile" textFill="#b47b50">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="sectionBtn" mnemonicParsing="false" onAction="#remove" prefHeight="78.0" prefWidth="131.0" text="Remove Section" textFill="#e1a500">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Button fx:id="backbtn" layoutX="14.0" layoutY="35.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="66.0" />
+   </children>
+</AnchorPane>

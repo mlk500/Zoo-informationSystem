@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.RemoveEmployeeController">
+   <children>
+      <Label layoutX="162.0" layoutY="26.0" text="Removing an Employee">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="employeeList" layoutX="407.0" layoutY="130.0" prefHeight="25.0" prefWidth="153.0" promptText="Choose an Employee" />
+      <Label layoutX="26.0" layoutY="129.0" text="Select an Employee from the list to remove it:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="removeBtn" layoutX="243.0" layoutY="219.0" mnemonicParsing="false" onAction="#removeEmployee" prefHeight="36.0" prefWidth="129.0" text="Remove Employee" />
+      <Button fx:id="backbtn" layoutX="14.0" layoutY="31.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="66.0" />
+   </children>
+</AnchorPane>
